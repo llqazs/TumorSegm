@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BrainSegmentation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BrainSegmentation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/opencv64/include/opencv2/" />
+				</Compiler>
+				<Linker>
+					<Add library="opencv_core240d.lib" />
+					<Add library="opencv_highgui240d.lib" />
+					<Add directory="D:/opencv64/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BrainSegmentation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AdaptiveSegment2D.cpp" />
+		<Unit filename="AdaptiveSegment2D.h" />
+		<Unit filename="AdaptiveSegmentation.cpp" />
+		<Unit filename="AdaptiveSegmentation.h" />
+		<Unit filename="AppearanceModel.h" />
+		<Unit filename="Data2D.h" />
+		<Unit filename="Data3D.h" />
+		<Unit filename="DataConvertor.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Graph2D.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Graph2D.h" />
+		<Unit filename="GraphLinkCost.h" />
+		<Unit filename="HardConstraint.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="HardConstraint.h" />
+		<Unit filename="Histogram.h" />
+		<Unit filename="Image2D.h" />
+		<Unit filename="Image3D.h" />
+		<Unit filename="MyBasic.h" />
+		<Unit filename="MyMath.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="RegionProps.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Smoothterm.h" />
+		<Unit filename="Viewer.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Viewer.h" />
+		<Unit filename="common.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="smart_assert.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
