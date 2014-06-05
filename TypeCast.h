@@ -1,0 +1,6 @@
+#ifndef TYPECAST_H_INCLUDED
+#define TYPECAST_H_INCLUDED
+
+
+
+#endif // TYPECAST_H_INCLUDED
